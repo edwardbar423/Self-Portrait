@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		49257DBB1D638DC300540BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DBA1D638DC300540BA3 /* main.m */; };
 		49257DC31D638DE500540BA3 /* Me.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DC21D638DE500540BA3 /* Me.m */; };
+		49257DC61D63C55700540BA3 /* You.m in Sources */ = {isa = PBXBuildFile; fileRef = 49257DC51D63C55700540BA3 /* You.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		49257DBA1D638DC300540BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49257DC11D638DE500540BA3 /* Me.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Me.h; sourceTree = "<group>"; };
 		49257DC21D638DE500540BA3 /* Me.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Me.m; sourceTree = "<group>"; };
+		49257DC41D63C55700540BA3 /* You.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = You.h; sourceTree = "<group>"; };
+		49257DC51D63C55700540BA3 /* You.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = You.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				49257DBA1D638DC300540BA3 /* main.m */,
+				49257DC41D63C55700540BA3 /* You.h */,
+				49257DC51D63C55700540BA3 /* You.m */,
 				49257DC11D638DE500540BA3 /* Me.h */,
 				49257DC21D638DE500540BA3 /* Me.m */,
 			);
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49257DC61D63C55700540BA3 /* You.m in Sources */,
 				49257DBB1D638DC300540BA3 /* main.m in Sources */,
 				49257DC31D638DE500540BA3 /* Me.m in Sources */,
 			);
@@ -252,6 +258,7 @@
 				49257DC01D638DC300540BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
